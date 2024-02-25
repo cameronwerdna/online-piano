@@ -28,7 +28,7 @@ const PianoApp = () => {
 
   return (
     <div className="App">
-      <h1>One Octave Piano!!</h1>
+      <h1>One Octave Piano! Synth it up!</h1>
       <div className="piano">
         {midi.tracks.flatMap((track, trackIndex) => (
           track.notes.map((note, noteIndex) => (
